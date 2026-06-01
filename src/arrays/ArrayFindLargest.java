@@ -17,7 +17,7 @@ public class ArrayFindLargest {
 
     public static void main() {
         try {
-            int[] arr = {};
+            int[] arr = {2,4,7,10,8,5};
             System.out.println("Largest ele is : " + findLargest(arr));
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
